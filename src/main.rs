@@ -1,8 +1,9 @@
 fn main(){
-    let ans = sum(1, 2);
-    println!("{}" , ans);
+    // let ans = sum(1, 2);
+    let is_even = bool(10);
+    println!("{}" , is_even);
 }
 
-fn sum(a:u32 , b:u32)->u32{
-  return a+b
+fn bool(n:u32)->bool{
+  return n%2==0;
 }
